@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}  % Add hyperlink package
+\hypersetup{
+   colorlinks=true,
+   linkcolor=black,
+   urlcolor=blue
+}
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Moyo Ajayi} % Your name
+\address{\textbf{Data Scientist}} % Your secondary address (optional)
+\address{907.306.2651 \\ moyo.ajayi@gmail.com}  % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+
+An impassioned data scientist who integrates analytical and computational methods to illuminate meaningful signals amongst the noise. Completed work reflects distinguished analysis and visualizations, which are communicated to all stakeholders through effective data narratives. In short, employers will be hiring a data scientist who is:
+{\begin{itemize}
+    \item {highly skilled in cleaning, analyzing, and visualizing gigabyte-sized data sets with pandas and tidyverse}
+    \item {adept in applied statistical modeling and machine learning using scikit-learn, tidymodels, and other relevant packages}
+    \item {experienced working in sprint cycles to meet deadlines with quality work, and able to effectively iterate products with long-term goals}    
+    \item {a self-starter who works well with teams and uses git to code collaboratively with others}
+    \item {able to communicate technical methods to stakeholders of varying levels of expertise}
+\end{itemize} }
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf PhD in Environmental Engineering} \hfill {2016 - (Spring) 2021}
+\\ 
+Vanderbilt University, Nashville, TN 
+
+{\bf MS in Earth \& Environmental Sciences}  \hfill {2014 - 2016}
+\\
+Vanderbilt University, Nashville, TN
+ 
+{\bf Bachelor's in Environmental Biology}  \hfill {2010 - 2014}
+\\
+Columbia University, New York, NY
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills \& Experience}
+
+\begin{small}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming (Advanced)    & \textbf{Python}, Matlab, Tableau, LaTeX \\ 
+Programming (Experienced) & \textbf{R}, \textbf{Git}, Web Scraping, Linux, \textbf{SQL} \\
+Libraries \& IDEs         & \textbf{Jupyter, RStudio}, \textbf{Pandas}, \textbf{scikit-learn} \\ & numpy, \textbf{tidyverse, tidymodels}, PyTorch \\
+Analytical Skills         & \textbf{Time Series Analysis}, Feature Engineering, Multivariate regression \\ & Hypothesis testing, Causal inference \\
+Data Management           & \textbf{Cluster Computing (GPU), Data Wrangling}, \\ & Exploratory Data Analysis, Visualization (\emph{e.g.} Dashboards, IoT) \\
+Algorithms                & Monte Carlo Simulation, Bayesian Hierarchical Modeling \\ & \textbf{Supervised Classification \& Regression, Tree Classification} \\
+\end{tabular}
+
+\end{small}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Relevant Experience}
+
+\begin{rSubsection}{Data Science Research Associate, Data Science Institute}{Jul 2020 - Dec 2020}{Leveraged ML Techniques to Predict Teacher Churn for the State of Tennessee}{Remote Work} 
+\item {Programmed and analyzed binary classification model to quantify the probability \\ of teacher churn across the state of TN}
+\item {Used tidymodeling to evaluate and predict annual turnover for 65k+ teachers}
+\item {Developed a multitude of functions to clean and engineer features to run ML algorithms \\ (\emph{e.g.} Decision Tree)}
+\item {Quickly absorbed R and tidyverse programming with a GPU cluster to provide effective contributions \\ to the project}
+\item {Coded collaboratively through git to build on top of existing code}
+
+\end{rSubsection} 
+
+%------------------------------------------------
+
+\begin{rSubsection}{PhD Candidate, Vanderbilt University}{May 2019 - Present}{Collaborating with National Oceanographic and Atmospheric Administration (NOAA)}{Oak Ridge, TN}
+\item {Processed GBs of data from gas measurements taking place over the course of a year}
+\item {With pythonic programming (e.g. pandas, scikit-learn), the data was wrangled, cleaned, \\ and analyzed to illustrate key insights from the study}
+\item {Employing advanced statistical analyses on large time series data sets}
+\item {Used random forest and other ML techniques modeling to fill gaps of missing data \\ within the time series data sets}
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{PhD Candidate, Vanderbilt University}{Jan 2018 - Present}{Using Monte Carlo Simulation \& Linear Programming to Optimize Sampling Design}{Nashville, TN}
+\item {Incorporated ARIMA methods to simulate to simulate individual gas emission measurements}
+\item {Aggregated gas emission simulations with Monte Carlo model to assess the emission variations within the calderas probabilistically}
+\item {Combined collaborator's linear programming model and my Monte Carlo simulation to optimize a novel gas sampling design}
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{PhD Candidate, Vanderbilt University}{Jul 2017 - Present}{Linking Greenhouse Gases and Volcanic Emissions with \\ Data-Driven Strategies}{}
+\item {Orchestrated and implemented the scientific and logistic sampling design of more than \\ 100+ samples of greenhouse gas measurements across two N. American volcanoes}
+\item {Ran causal and inferential analyses to gain an understanding of the relationships between \\ different locations within and between volcanoes}
+\item {Examined geospatial relationships between measurement sites}
+\item {Employed advanced statistical analysis to generate high-impact insight}
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{MS Candidate, Vanderbilt University}{Oct 2015 - Aug 2016}{Robust Statistical Analysis of Fugitive Methane Emissions at Hydraulically Fractured Sites}{Oliver Springs, TN}
+\item {Fashioned a mobile laboratory with state-of-the-art gas analyzer and accompanying equipment}
+\item {Implemented many variants of two-sample hypothesis (A/B) tests to separate the true amounts \\ of normal background gases from fugitive leaks caused by hydraulic fracturing procedures}
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Development} 
+
+\begin{rSubsection}{Data Science Career Track (Python)}{}{Online Data Science Education Platform}{}
+\item {Completed 100 hours and over two dozen modules to gain this certification}
+\item {Hundreds of hours on this platform were spent completing dozens of courses from basic programming \\ to deep learning. Please click for \href{https://github.com/907Resident/Certifications}{certificates}}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Teaching Assistant}{}{Introductory Earth Science Data-Emphasized Courses}{}
+\item {Created a series of four modules of three or more activities per module that guided \\ students to learning the fundamentals of introductory earth sciences}
+\item {Generated class material that included dozens MATLAB and MS Excel exercises, twice-weekly \\ pen and paper quantitative analysis, and introduction to modelling for advanced students}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Summary of Relevant Courses}{}{}{}
+\item {Applied Statistics \& Probability, Numerical Methods, Risk and Decision Analysis \\ Intro to Statistics (undergrad), Intro to MATLAB (undergrad)}
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+% AWARDS & ACCOMPLISHMENTS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Awards}
+
+\begin{rSubsection}{1st Place - Oral Presentation}{Sep 2019}{National Association of Black Geoscientists}{}
+\item {Awarded 1st place for communicating results from gas sampling research \\ in N. American volcanoes}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Vanderbilt Summer Research Award}{Spring 2019}{Vanderbilt Graduate School}{}
+\item{Successfully wrote a research proposal and was granted approximately \$2000}
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
