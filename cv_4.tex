@@ -22,6 +22,7 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage{hyperref}  % Add hyperlink package
+\usepackage{comment}
 \hypersetup{
    colorlinks=true,
    linkcolor=black,
@@ -32,7 +33,7 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \newcommand{\commentblock}[1]{}
 \name{Moyo Ajayi} % Your name
-\address{\textbf{Data Scientist}} % Your secondary address (optional)
+\address{\textbf{Sr. Data Scientist}} % Your secondary address (optional)
 \address{907.306.2651 \\ moyo.ajayi.ds@gmail.com}  % Your phone number and email
 
 \begin{document}
@@ -40,61 +41,25 @@
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE
 %----------------------------------------------------------------------------------------
-
 \begin{rSection}{Summary}
-
-A born and grown Alaskan, Moyo is a passionate data scientist who integrates analytical and computational methods to share meaningful insight. Employers will be hiring a data scientist who:
-{\begin{itemize}
-    \item {uses 6+ years of experience collecting, cleansing, analyzing, and reporting to provide actionable data-driven insights to a variety of stakeholders}
-    %\item {highly skilled in processing large (10s-100s GB) data sets with python (pandas) and R (tidyverse)}
-    \item {can adeptly apply inferential statistics and machine learning using scikit-learn, MLOps, and other relevant packages to produce high-caliber work}
-    %\item {capable of working in sprint cycles to meet deadlines with quality work, and able to effectively iterate products with long-term goals}    
-    %\item {a self-starter who works well with teams and uses git to code collaboratively with others}
-    \item {understands how to connect novel data science techniques to specific business questions}
-\end{itemize} }
-
+    A born and grown Alaskan, Moyo contributes 3.5 and 6 years of professional and graduate experience, delivering employers actionable intelligence.
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+\begin{comment}
+    \begin{rSection}{Summary}
 
-\begin{rSection}{Education}
+    A born AND grown Alaskan, Moyo is a passionate data scientist who integrates analytical and computational methods to share meaningful insight. Employers will be hiring a data scientist who:
+    {\begin{itemize}
+        \item {uses 6+ years of experience collecting, cleansing, analyzing, and reporting to provide actionable data-driven insights to a variety of stakeholders}
+        %\item {highly skilled in processing large (10s-100s GB) data sets with python (pandas) and R (tidyverse)}
+        \item {can adeptly apply inferential statistics and machine learning using scikit-learn, MLOps, and other relevant packages to produce high-caliber work}
+        %\item {capable of working in sprint cycles to meet deadlines with quality work, and able to effectively iterate products with long-term goals}    
+        %\item {a self-starter who works well with teams and uses git to code collaboratively with others}
+        \item {understands how to connect novel data science techniques to specific business questions}
+    \end{itemize} }
 
-{\bf PhD in Environmental Engineering} \hfill {2016 - (Summer) 2022}
-\\ 
-Vanderbilt University, Nashville, TN 
-
-{\bf MS in Earth \& Environmental Sciences}  \hfill {2014 - 2016}
-\\
-Vanderbilt University, Nashville, TN
- 
-{\bf Bachelor's in Environmental Biology}  \hfill {2010 - 2014}
-\\
-Columbia University, New York, NY
-
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Technical Skills \& Experience}
-
-\begin{small}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming (Advanced)    & \textbf{Python}, \textbf{Git}, Matlab, HTML \& CSS \\ 
-Programming (Experienced) & \textbf{R}, Web Scraping, Linux, SQL \\
-IDEs \& Libraries         & \textbf{VSCode}, \textbf{pandas}, \textbf{scikit-learn} \\ & numpy, (beginning) Keras and Tensorflow \\
-Data Management           & \textbf{Cloud Computing (Azure), Data Wrangling}, \\ & Exploratory Data Analysis, Visualization (\emph{e.g.} Streamlit, Gradio) \\
-Algorithms                & \textbf{Supervised Classification \& Regression, \href{https://proceedings.neurips.cc/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf}{UMAP}, \href{https://lightgbm.readthedocs.io/en/latest/}{LGBM}}, \\ & \href{https://arxiv.org/pdf/1705.07321.pdf}{HDBSCAN}, K-means, Monte Carlo Simulation, \\ & \href{https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html}{TF-IDF} \\
-Analytical Skills         & \textbf{Time Series Analysis}, Feature Engineering, Multivariate regression, \\ & Hypothesis testing (and other inferential methods) \\
-\end{tabular}
-
-\end{small}
-
-\end{rSection}
+    \end{rSection}
+\end{comment}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -102,140 +67,173 @@ Analytical Skills         & \textbf{Time Series Analysis}, Feature Engineering, 
 
 \begin{rSection}{Relevant Experience}
 
-\begin{rSubsection}{ERM, Inc.}{May 2021 - Present}{Data Scientist}{Denver, CO} 
-\item {Global Climate Forecasting Reporting Tool: Developing tool to query, quantify, and automatically \\ report current and projected data for a financial institution and its agribuisness assets.}
-    \vspace{-0.5em}
-    \subitem{$\cdot$ Delivered a python-based tool that connected user input to climate projects}
-    \vspace{-0.5em}
-    \subitem {$\cdot$ Utilized advanced modules to organize extracted data into concise and dynamic reports}
-    \vspace{0.25em}
-\item {Machine Learning to Optimize Practices at Large Peruvian Copper Mine: Attacking two major \\ objectives}
-    \vspace{-0.5em}
-    \subitem{$\cdot$ Helped a client to decrease the human manual workload and provided the client with predictive \\ model framework that ranged from rock type classification to enhancing mill performance}
-    \vspace{-0.5em}
-    \subitem{$\cdot$ Applied supervised ML techniques to predict rock domain from geochemical data (500k+ samples)}
-    \vspace{-0.5em}
-    %\subitem {$\cdot$ Planning to integrate predictions into large scale model to classify rock before it arrives at mill}
-    \subitem{$\cdot$ Employed non-linear dimension reduction (UMAP) and unsupervised ML methods (\emph{e.g.}, HDBSCAN) \\ to effectively compress the wide data to two dimensions and organize the samples into meaningful clusters}
-    \vspace{0.25em}
-\item{NLP Classification of Legislature to Distinguish Relevant from Irrelevant to the Business and Clients}    
-    \vspace{-0.5em}
-    \subitem{$\cdot$ Accessing a previously made database of regulations spanning American to Polish law ($\ge$ 100k regulations), \\ NLP and ML supervised techniques were used to classify legislature from around the world that is and \\ not relevant to the company and its clients}
-    \vspace{-0.5em}
-    \subitem{$\cdot$ As project leader, provided the road map and developed the codebase to permit the preprocessing, \\ exploration, optimization, visualization, and interpretation of the algorithms used to delineate relevant from \\ irrelevant legislature}
-    \vspace{-0.5em}
-    \subitem{$\cdot$ These techniques will reduce the demand for humans to review the regulations by \\ hundreds of hours.}
-    \vspace{-0.5em}
-    \subitem{$\cdot$ Will lead the deployment and maintenance of the product within the Azure ecosystem in 2022.}
-    \vspace{0.25em}
+    %----Bridgestone----\
+    \begin{rSubsection}{Bridgestone}{August 2022 - Present}{Sr. Data Scientist}{Denver, CO} 
 
-\commentblock{
-    \item {Constructed Custom GIS Tool to Quantify Forest Quality Around the Globe: Used python and ArcGIS to create ArcPro toolbox}
+        \item {Automated Classification of Customer Reviews}
         \vspace{-0.5em}
-        \subitem{$\cdot$ Utilized the pythonic arcpy module to generate a custom tool that allows the user to acquire forest quality around the globe}
+        \subitem{$\cdot$ Developed an NLP and LLM model system to collect, classify, and deliver >100k reviews to stakeholder}
         \vspace{-0.5em}
-        \subitem {$\cdot$ Leveraged pythonic methods to create tool with simple interface for user and readable reports}
+        \subitem {$\cdot$ Leaped ahead of previous process and simple sentiment classification by building a collection of \\ \hspace*{2.25em} transformer-based based models that work in concert to provide deterministic predictions of customer \\ \hspace*{2.25em} feedback across \(\geq\)16 actionable categories}        
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Contributions served as the essential data modeling link in a product development chain for a \$5M per \\ \hspace*{2.25em} item process}
         \vspace{0.25em}
-    \item {Selected to lead the changes for advanced computational infrastructure for N. American \\ Data Science teams}
-}
-\end{rSubsection} 
 
-%------------------------------------------------
+        \item {Corporate Intelligence Retrieval Augmented Generation (RAG) Application}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Constructed and Deployed RAG model to facilitate efficient strategic planning at the coporate level}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ The RAG model involved the collection of exclusive documents that required several iterations of \\ \hspace*{2.25em} retrieval, LLM exploration, and evaluation system development}
+        \vspace{0.25em}
 
-\begin{rSubsection}{Data Science Research Associate, Data Science Institute (Vanderbilt)}{Jul 2020 - Dec 2020}{Leveraged ML Techniques to Predict Teacher Churn for the State of Tennessee}{Remote Work} 
-\item {Consulted with state education agency and produced supervised classification machine learning \\ (ML) model with tidymodels (R) to evaluate and predict annual turnover for 65k+ teachers}
-%\item {Used tidymodeling to evaluate and model annual turnover for 65k+ teachers}
-\item {Developed a multitude of functions to clean and engineer features to run ML algorithms \\ (\emph{e.g.} Logistic Regression, Random Forest)}
-\item {Quickly absorbed R and tidyverse programming with a GPU cluster to provide effective \\ contributions to the project}
-\item {Coded collaboratively in a core team of 5 members through git to build on top of existing code}
+        \item {Bridgestone GPT}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Collaborated with other data scientists and machine learning engineers to introduce a secure chat \\ \hspace*{2.25em} service as an alternative to the company-banned ChatGPT}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Powered a user friendly interface with several options of the GPT LLMs secured on our tenant}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ The productionalized application allows scores of teammates to submit queries to the underlying LLM \\ \hspace*{2.25em} in order to  ideate, generate, and promote a suite of creative and efficient tasks and goals}
 
-\end{rSubsection} 
+    \end{rSubsection} 
 
-%------------------------------------------------
-\commentblock{
-    \begin{rSubsection}{PhD Candidate, Vanderbilt University}{May 2019 - 2021}{Collaborating with National Oceanographic and Atmospheric Administration (NOAA)}{Oak Ridge, TN}
-    \item {Processed GBs of data from gas measurements taking place over the course of a year}
-    \item {With Python (e.g. pandas, scikit-learn), the data was wrangled, cleaned, \\ and analyzed to illustrate key insights from the study}
-    \item {Employing advanced statistical analyses on large time series data sets}
-    \item {Used random forest and other ML techniques modeling to fill gaps of missing data \\ within the time series data sets}
+    %----ERM----
+    \begin{rSubsection}{ERM, Inc.}{May 2021 - July 2022}{Data Scientist}{Denver, CO} 
+
+    \item {Global Climate Forecasting Reporting Tool}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Developed multi-layered tool to query, quantify, and automatically report current and projected data \\ \hspace*{2.25em} for a financial institution and its agribuisness assets}
+        \vspace{-0.5em}
+        \subitem {$\cdot$ Utilized advanced modules to programmatically organize data queried from global climate models \\ \hspace*{2.25em} into concise and dynamic reports}
+        \vspace{0.25em}
+
+    \item {Semi-Supervised Learning to Optimize Practices at Large Peruvian Copper Mine}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Drastically reduced manual workload and provided client with predictive model framework to \\ \hspace*{2.25em} enhance mine performance}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Employed non-linear dimension reduction (UMAP) and unsupervised ML methods (\emph{e.g.}, HDBSCAN) \\ \hspace*{2.25em} to effectively compress high-dimensional geochemical data into meaningful clusters}
+        \vspace{0.25em}
     
-    \end{rSubsection}
-}
+    \commentblock{
+        \item{NLP Classification of Legislature to Distinguish Relevant from Irrelevant to the Business and Clients}    
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Accessing a previously made database of regulations spanning American to Polish law ($\ge$ 100k regulations), \\ NLP and ML supervised techniques were used to classify legislature from around the world that is and \\ not relevant to the company and its clients}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ As project leader, provided the road map and developed the codebase to permit the preprocessing, \\ exploration, optimization, visualization, and interpretation of the algorithms used to delineate relevant from \\ irrelevant legislature}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ These techniques will reduce the demand for humans to review the regulations by \\ hundreds of hours.}
+        \vspace{-0.5em}
+        \subitem{$\cdot$ Will lead the deployment and maintenance of the product within the Azure ecosystem in 2022.}
+        \vspace{0.25em}
 
-%------------------------------------------------
+        \item {Constructed Custom GIS Tool to Quantify Forest Quality Around the Globe: Used python and ArcGIS to create ArcPro toolbox}
+            \vspace{-0.5em}
+            \subitem{$\cdot$ Utilized the pythonic arcpy module to generate a custom tool that allows the user to acquire forest quality around the globe}
+            \vspace{-0.5em}
+            \subitem {$\cdot$ Leveraged pythonic methods to create tool with simple interface for user and readable reports}
+            \vspace{0.25em}
+        \item {Selected to lead the changes for advanced computational infrastructure for N. American \\ Data Science teams}
+    }
+    \end{rSubsection} 
+    
+    %----Vandy DSI----
+    \commentblock{
+        \begin{rSubsection}{Data Science Research Associate, Data Science Institute (Vanderbilt)}{Jul 2020 - Dec 2020}{Leveraged ML Techniques to Predict Teacher Churn for the State of Tennessee}{Remote Work} 
+        \item {Consulted with state education agency and produced supervised classification machine learning \\ (ML) model with tidymodels (R) to evaluate and predict annual turnover for 65k+ teachers}
+        %\item {Used tidymodeling to evaluate and model annual turnover for 65k+ teachers}
+        \item {Developed a multitude of functions to clean and engineer features to run ML algorithms \\ (\emph{e.g.} Logistic Regression, Random Forest)}
+        \item {Quickly absorbed R and tidyverse programming with a GPU cluster to provide effective \\ contributions to the project}
+        \item {Coded collaboratively in a core team of 5 members through git to build on top of existing code}
+        \end{rSubsection} 
+    }
 
-\begin{rSubsection}{PhD Candidate, Vanderbilt University}{Jul 2017 - 2021}{Linking Greenhouse Gases and Volcanic Emissions with \\ Data-Driven Strategies}{}
-\item {Orchestrated and implemented the scientific and logistic sampling design of more than \\ 100+ samples of greenhouse gas measurements across two N. American volcanoes}
-\item {Ran inferential analyses to gain an understanding of the relationships between \\ different locations within and between volcanoes}
-\item {Examined geospatial relationships between measurement sites}
-\item {Employed advanced statistical analysis to generate high-impact insight}
-\item {Published a \href{https://www.sciencedirect.com/science/article/abs/pii/S0377027321000627#preview-section-abstract}{paper} the \emph{Journal of Volcanic and Geothermal Research} on subset of analysis}
+    %----Vandy PhD----
+    
+    \commentblock{
+        \begin{rSubsection}{PhD Candidate, Vanderbilt University}{Jul 2017 - 2021}{Linking Greenhouse Gases and Volcanic Emissions with \\ Data-Driven Strategies}{}
+        \item {Orchestrated and implemented the scientific and logistic sampling design of more than \\ 100+ samples of greenhouse gas measurements across two N. American volcanoes}
+        \item {Ran inferential analyses to gain an understanding of the relationships between \\ different locations within and between volcanoes}
+        \item {Examined geospatial relationships between measurement sites}
+        \item {Employed advanced statistical analysis to generate high-impact insight}
+        \item {Published a \href{https://www.sciencedirect.com/science/article/abs/pii/S0377027321000627#preview-section-abstract}{paper} the \emph{Journal of Volcanic and Geothermal Research} on subset of analysis}
+        
+        \end{rSubsection}
+    }
+    
+    %------------------------------------------------
+    \commentblock{
+        \begin{rSubsection}{MS Candidate, Vanderbilt University}{Oct 2015 - Aug 2016}{Robust Statistical Analysis of Fugitive Methane Emissions at Hydraulically Fractured Sites}{Oliver Springs, TN}
+        \item {Fashioned a mobile laboratory with state-of-the-art gas analyzer and accompanying equipment}
+        \item {Implemented many variants of two-sample hypothesis (A/B) tests to separate the true amounts \\ of normal background gases from fugitive leaks caused by hydraulic fracturing procedures}
+        
+        \end{rSubsection}
+    }
 
-\end{rSubsection}
-
-%------------------------------------------------
-
-%\begin{rSubsection}{MS Candidate, Vanderbilt University}{Oct 2015 - Aug 2016}{Robust Statistical Analysis of Fugitive Methane Emissions at Hydraulically Fractured Sites}{Oliver Springs, TN}
-%\item {Fashioned a mobile laboratory with state-of-the-art gas analyzer and accompanying equipment}
-%\item {Implemented many variants of two-sample hypothesis (A/B) tests to separate the true amounts \\ %of normal background gases from fugitive leaks caused by hydraulic fracturing procedures}
-
-%\end{rSubsection}
-
-%------------------------------------------------
-
-\end{rSection} 
-
-%----------------------------------------------------------------------------------------
-%	PROFESSIONAL EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Professional Development} 
-\begin{rSubsection}{Leader of Data Science Computational Infrastructure Upgrade}{}{ERM}{}
-\item {Tasked with the opportunity to transition the data science and climate teams from primarily local code \\ development and collaboration on email toward centralized development (\emph{e.g.}, Azure, Anaconda) and git}
-\item {Created several standard operating procedures and other technical documentation to educate and train \\ colleagues on more efficient methods of code development}
-\end{rSubsection}
-
-%------------------------------------------------
-\commentblock{
-    \begin{rSubsection}{Hands-On MLOps Workshop in Azure}{}{Microsoft}{}
-    \item {Completed an eight hour hands-on lab with Microsoft Azure specialists to grow fundamental \\ skills in building reproducible and maintainable ML products}
-    \item {This workshop was a stepping stone in developing the experience to becoming an end-to-end \\ concept to production data scientist}
-    \end{rSubsection}
-}
-%------------------------------------------------
-
-\begin{rSubsection}{Data Science Career Track (Python)}{}{Online Data Science Education Platform}{}
-\item {Completed 100+ hours and over two dozen modules to gain certification}
-\item {Hundreds of hours on this platform were spent completing dozens of courses from basic programming \\ to deep learning. Please click for \href{https://github.com/907Resident/Certifications}{certificates}}
-\end{rSubsection}
-
-%------------------------------------------------
-
-%\begin{rSubsection}{Summary of Relevant Courses}{}{}{}
-%\item {Applied Statistics \& Probability, Numerical Methods, Risk and Decision Analysis \\ Intro to %Statistics (undergrad)}
-
-%\end{rSubsection}
-%------------------------------------------------
-
-\end{rSection} 
-
-%----------------------------------------------------------------------------------------
-% AWARDS & ACCOMPLISHMENTS
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Awards}
-
-\begin{rSubsection}{Global Recognition Award}{Nov 2021}{ERM, Inc.}{}
-\item {Earned recognition from the CEO based on outstanding work in client focus, collaboration, and innovation. \\ This award was given to approximately one in twelve employees in the N. America region.}
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{1st Place - Oral Presentation}{Sep 2019}{National Association of Black Geoscientists}{}
-\item {Awarded 1st place for communicating results from gas sampling research \\ in N. American volcanoes}
-\end{rSubsection}
-
-\end{rSection}
+    %------------------------------------------------
+    
+    \end{rSection} 
 
 %----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+    {\bf PhD in Environmental Engineering} \hfill {2016 - 2024}
+    \\ 
+    Vanderbilt University, Nashville, TN 
+    
+    {\bf MS in Earth \& Environmental Sciences}  \hfill {2014 - 2016}
+    \\
+    Vanderbilt University, Nashville, TN
+     
+    {\bf Bachelor's in Environmental Biology (with concentration in Earth Science)}  \hfill {2010 - 2014}
+    \\
+    Columbia University, New York, NY
+    
+    \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills \& Experience}
+
+    \begin{small}
+    
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Programming     & Python: PyTorch, HuggingFace Suite, Scikit-Learn, Git \\
+    Data Management & Cloud Computing (AWS), Databricks (Apache Spark \& SQL), User-Interface (\emph{e.g.} Streamlit) \\
+    Algorithms      & Text Generation with Large Language Models (Open and Closed Source), \\ & Supervised Classification \& Regression (i.e., \href{https://lightgbm.readthedocs.io/en/latest/}{LGBM}), Unsupervised Clustering: \href{https://proceedings.neurips.cc/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf}{UMAP}, \href{https://arxiv.org/pdf/1705.07321.pdf}{HDBSCAN}
+    \end{tabular}
+    
+    \end{small}
+    
+    \end{rSection}    
+    
+    %----------------------------------------------------------------------------------------
+    %	PROFESSIONAL EXPERIENCE SECTION
+    %----------------------------------------------------------------------------------------
+    \commentblock{
+        \begin{rSection}{Professional Development} 
+        \begin{rSubsection}{Leader of Data Science Computational Infrastructure Upgrade}{}{ERM}{}
+        \item {Tasked with the opportunity to transition the data science and climate teams from primarily local code \\ development and collaboration on email toward centralized development (\emph{e.g.}, Azure, Anaconda) and git}
+        \item {Created several standard operating procedures and other technical documentation to educate and train \\ colleagues on more efficient methods of code development}
+        \end{rSubsection}
+    }
+    %------------------------------------------------
+    \commentblock{
+        \begin{rSubsection}{Hands-On MLOps Workshop in Azure}{}{Microsoft}{}
+        \item {Completed an eight hour hands-on lab with Microsoft Azure specialists to grow fundamental \\ skills in building reproducible and maintainable ML products}
+        \item {This workshop was a stepping stone in developing the experience to becoming an end-to-end \\ concept to production data scientist}
+        \end{rSubsection}
+    }
+
+    %------------------------------------------------
+    \commentblock{
+        \begin{rSubsection}{Data Science Career Track (Python)}{}{Online Data Science Education Platform}{}
+        \item {Completed 100+ hours and over two dozen modules to gain certification}
+        \item {Hundreds of hours on this platform were spent completing dozens of courses from basic programming \\ to deep learning. Please click for \href{https://github.com/907Resident/Certifications}{certificates}}
+        \end{rSubsection}
+    }
 
 \end{document}
