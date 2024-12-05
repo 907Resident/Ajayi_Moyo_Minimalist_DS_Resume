@@ -1,0 +1,11 @@
+# ignore pdfs in the archive directory
+_archive/*.pdf
+
+# ignore the aux, log, out, and .gz files
+*.aux
+*.log
+*.out
+*.gz
+
+# ignore the stadard output .pdf (cv4)
+cv_4.pdf
