@@ -111,6 +111,7 @@
     \setlength{\leftmargin}{1.5em} % Margin within the section
   }
   \item[]
+  \normalsize
 }{
   \end{list}
 }
